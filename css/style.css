@@ -1,0 +1,86 @@
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+height: auto;
+max-height: 800px;
+max-width: 100%;
+line-height: 1;
+width: 100%;
+}
+
+
+
+/* Space out content a bit */
+body {
+  background-color: #84CAE7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.middle {
+
+}
+
+.navbar-custom {
+  background-color: #84CAE7;
+  color:#E5ECE9;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #E5ECE9;
+}
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer .nav {
+  padding-left: 60px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.jumbotron {
+  color: #F5EFFF;
+}
+
+
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+
+i {
+  padding: 50px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+ /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
